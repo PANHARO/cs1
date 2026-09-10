@@ -47,7 +47,7 @@ int main(){
     int num_zero = 0;
     int user_input_2;
     while(number<10){
-        cout<<"Enter an interger: ";
+        cout<<"Enter "<<number+1<<" interger: ";
         cin>>user_input_2;
         if (user_input_2>0){
             positive_number_2+=1;
