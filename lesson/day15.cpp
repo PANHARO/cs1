@@ -25,25 +25,25 @@ int main(){
     //         }
     //     }
     // // exercise 3
-    // char grade[4] = {'A','B','C','D'};
-    // for(int i=0; i<4; i++){
-    //     cout<<grade[i]<<endl;
+    char grade[4] = {'A','B','C','D'};
+    for(int i=0; i<4; i++){
+        cout<<grade[i]<<endl;
+    }
+    grade[2] = 'A';
+    for(int i=0; i<4; i++){
+        cout<<grade[i]<<endl;
+    }
+    // int student_marks[5] = {90, 80, 70, 60, 50};
+    // cout<<"Student mark before update: "<<endl;
+    // for(int i=0; i<5; i++){
+    //     cout<<student_marks[i]<<endl;
     // }
-    // grade[2] = 'A';
-    // for(int i=0; i<4; i++){
-    //     cout<<grade[i]<<endl;
+    // for(int i=0; i<5; i++){
+    //     student_marks[i] += 5;
     // }
-    int student_marks[5] = {90, 80, 70, 60, 50};
-    cout<<"Student mark before update: "<<endl;
-    for(int i=0; i<5; i++){
-        cout<<student_marks[i]<<endl;
-    }
-    for(int i=0; i<5; i++){
-        student_marks[i] += 5;
-    }
-    cout<<"Student mark after update: "<<endl;
-    for(int i=0; i<5; i++){
-        cout<<student_marks[i]<<endl;
-    }
+    // cout<<"Student mark after update: "<<endl;
+    // for(int i=0; i<5; i++){
+    //     cout<<student_marks[i]<<endl;
+    // }
     return 0;
 }
