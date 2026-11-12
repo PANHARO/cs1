@@ -58,6 +58,24 @@ int main(){
     //     }
     // }
     // cout<<"Number of products above 100: "<<count<<endl;
-    
+    // exericse 4
+    // bubble sort
+    int num[4] = {7,4,9,2};
+    for(int i=0; i<3; i++){
+    for(int j=0; j<4-i-1; j++){
+        if(num[j] > num[j+1]){
+            int temp = num[j];
+            num[j] = num[j+1];
+            num[j+1] = temp;
+        }
+    }
+
+    cout << "After pass " << i+1 << ": ";
+        for(int k=0; k<4; k++){
+            cout << num[k] << " ";
+        }
+    cout << endl;
+}
+// 
     return 0;
 }
