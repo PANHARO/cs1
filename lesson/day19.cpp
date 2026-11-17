@@ -51,20 +51,20 @@ int main(){
     // cout<<endl;
 
     // display sorted or not sorted
-    // int number3[7] ={4,0,1,3,2,9,5};
-    // bool sorted = true;
-    // for (int i=0; i<6; i++){
-    //     if(number3[i] > number3[i+1]){
-    //         sorted = false;
-    //         break;
-    //     }
-    // }
-    // if(sorted){
-    //     cout<<"Sorted";
-    // }
-    // else{
-    //     cout<<"Not sorted";
-    // }
+    int number3[7] ={4,0,1,3,2,9,5};
+    bool sorted = true;
+    for (int i=0; i<6; i++){
+        if(number3[i] > number3[i+1]){
+            sorted = false;
+            break;
+        }
+    }
+    if(sorted){
+        cout<<"Sorted";
+    }
+    else{
+        cout<<"Not sorted";
+    }
 
     // sort the given array
     int number4[6] ={6,1,3,0,9,8};
